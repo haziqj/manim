@@ -1,0 +1,15 @@
+---
+title: "Manim Example"
+format:
+  revealjs: 
+    auto-play-media: false
+revealjs-plugins:
+  - manim
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Animation {.fv-background fv-video="animations/videos/DemoScene.mp4" fv-playback-info="animations/videos/DemoScene.json"}
