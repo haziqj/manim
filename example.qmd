@@ -7,9 +7,10 @@ revealjs-plugins:
   - manim
 ---
 
-## Getting up
+## This is a regular slide
 
-- Turn off alarm
-- Get out of bed
+The next slide will show a manim animation.
 
-## Animation {.fv-background fv-video="animations/videos/DemoScene.mp4" fv-playback-info="animations/videos/DemoScene.json"}
+## {.fv-background fv-video="animations/videos/DemoScene.mp4" fv-playback-info="animations/videos/DemoScene.json"}
+
+# End

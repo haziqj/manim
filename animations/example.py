@@ -24,11 +24,11 @@ class DemoScene(PresentationScene):
         self.end_fragment()
 
     def construct(self):
-        title = Tex("This is a presentation made in \\sc Manim-RevealJS", color=BLACK)
+        title = Tex("This is a presentation made in \\sc Manim-RevealJS")
         title_ul = Underline(title)
         title_ul_bk = Rectangle(width=title.width,height=title.height*1.6)\
             .next_to(title_ul,DOWN,buff=0)\
-            .set_style(fill_opacity=1,stroke_width=0,fill_color=BLACK)
+            .set_style(fill_opacity=1,stroke_width=0,fill_color=WHITE)
         vg_title = VGroup(title_ul_bk,title_ul)
         p = piramyd(7)
         p.set(height=config.frame_height-3)
