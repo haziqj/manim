@@ -1,8 +1,9 @@
 ---
-title: "Manim Example"
+title: "Manim"
 format:
   revealjs: 
     auto-play-media: false
+    html-math-method: mathjax
 revealjs-plugins:
   - manim
 ---
@@ -10,7 +11,7 @@ revealjs-plugins:
 ## This is a regular slide
 
 The next slide will show a manim animation.
+Click the '`->`' arrow to advance.
 
 ## {.fv-background fv-video="animations/videos/DemoScene.mp4" fv-playback-info="animations/videos/DemoScene.json"}
 
-# End
