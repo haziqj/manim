@@ -1,4 +1,7 @@
 project:
-  output-dir: docs
+  output-dir: _site
   resources:
     - animations/videos
+
+execute:
+  freeze: auto
